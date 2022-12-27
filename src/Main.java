@@ -13,5 +13,24 @@ public class Main {
         System.out.println("Значение переменной cossack с типом float равно " + cossack);
         double jew = 1.7000000000000001;
         System.out.println("Значение переменной jew с типом double равно " + jew);
+
+        System.out.println("Задача 2");
+        float a = 27.12f;
+        System.out.println("Значение переменной a равно " + a + " - тип переменной float");
+        long b = 987678965549L;
+        System.out.println("Значение переменной b равно " + b + " - тип переменной long");
+        float c = 2.786f;
+        System.out.println("Значение переменной c равно " + c + " - тип переменной float");
+        short d = 569;
+        System.out.println("Значение переменной d равно " + d + " - тип переменной short");
+        short e = -159;
+        System.out.println("Значение переменной e равно " + e + " - тип переменной short");
+        short f = 27897;
+        System.out.println("Значение переменной f равно " + f + " - тип переменной short");
+        byte k = 67;
+        System.out.println("Значение переменной k равно " + k + " - тип переменной byte");
+
+
+
     }
 }
