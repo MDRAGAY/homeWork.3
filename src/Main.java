@@ -31,6 +31,14 @@ public class Main {
         System.out.println("Значение переменной k равно " + k + " - тип переменной byte");
 
 
+        System.out.println("Задача 3");
+        byte stLP = 23;
+        byte stAS = 27;
+        byte stEA = 30;
+        short Paper = 480;
+        System.out.println("На каждого ученика рассчитано " + Paper / (stEA + stAS + stLP) + " листов бумаги");
+
+
 
     }
 }
