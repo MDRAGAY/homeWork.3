@@ -67,6 +67,12 @@ public class Main {
         System.out.println("Вес спортзавтрака " + productWeightKg + " кг.");
 
 
+        System.out.println("Задача 7");
+        short WeightLoss1 =(short) (7*1000) / 250;
+        System.out.println("Достижение результата за " +WeightLoss1 + " дней");
+        short WeightLoss2 =(short) (7*1000) / 500;
+        System.out.println("Достижение результата за " + WeightLoss2 + " дней");
+
 
     }
 }
