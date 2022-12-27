@@ -50,6 +50,12 @@ public class Main {
         System.out.println("Производительность машины за месяц — " + oneMonth + " бутылок");
 
 
+        System.out.println("Задача 5");
+        int allClasses = 120 / (2 + 4);
+        int whitePaint = (int) (allClasses * 2);
+        int brownPaint = (int) (allClasses * 4);
+        System.out.println("В школе, где " + allClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски");
+
 
     }
 }
