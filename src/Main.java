@@ -73,6 +73,25 @@ public class Main {
         short WeightLoss2 =(short) (7*1000) / 500;
         System.out.println("Достижение результата за " + WeightLoss2 + " дней");
 
+        System.out.println("Задача 8");
+        int salaryMasha = 67760;
+        float indexingSalaryMasha = (float) (salaryMasha * 1.1);
+        System.out.println("Маша теперь получает " + indexingSalaryMasha + " рублей.");
+        int annualSalaryMasha = salaryMasha * 12;
+        int indexingAnnualSalaryM = (int) (indexingSalaryMasha * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryM - annualSalaryMasha) + " рублей");
+        int salaryDenis = 83690;
+        float indexingSalaryDenis = (float) (salaryDenis * 1.1);
+        System.out.println("Денис теперь получает " + indexingSalaryDenis + " рублей.");
+        int annualSalaryDenis = salaryDenis * 12;
+        int indexingAnnualSalaryDenis = (int) (indexingSalaryDenis * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryDenis - annualSalaryDenis) + " рублей");
+        int salaryKris = 76230;
+        float indexingSalaryKris = (float) (salaryKris * 1.1);
+        System.out.println("Кристина теперь получает " + indexingSalaryKris + " рублей.");
+        int annualSalaryKris = salaryKris * 12;
+        int indexingAnnualSalaryKris = (int) (indexingSalaryKris * 12);
+        System.out.println("Годовой доход вырос на " + (indexingAnnualSalaryKris - annualSalaryKris) + " рублей");
 
     }
 }
