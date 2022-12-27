@@ -38,6 +38,17 @@ public class Main {
         short Paper = 480;
         System.out.println("На каждого ученика рассчитано " + Paper / (stEA + stAS + stLP) + " листов бумаги");
 
+        System.out.println("Задача 4");
+        byte Minute1 = 16 / 2;
+        short Minutes10 = (short) (Minute1 * 20);
+        System.out.println("Производительность машины за 20 минут — " + Minutes10 + " бутылок");
+        short oneDay = (short) (Minute1 * 60 * 24);
+        System.out.println("Производительность машины в сутки — " + oneDay + " бутылок");
+        int threeDay = oneDay * 3;
+        System.out.println("Производительность машины за 3 дня — " + threeDay + " бутылок");
+        int oneMonth = oneDay * 30;
+        System.out.println("Производительность машины за месяц — " + oneMonth + " бутылок");
+
 
 
     }
